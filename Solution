@@ -9,7 +9,6 @@ function shuffle() { // Тасование Фишера — Йетса
     [array[i], array[j]] = [array[j], array[i]];
   }
 }
-
 let array = [1, 2, 3]; //Массив который перемешиваем
 shuffle(array)
 console.log(array)
