@@ -1,2 +1,2 @@
 # Google-Apps-script-solution
-Сдесь собраны котовые куски кода, для решения разных задачь по Google-Apps-script
+Сдесь собраны готовые куски кода, для решения разных задач по Google-Apps-script
