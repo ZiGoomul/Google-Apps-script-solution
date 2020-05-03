@@ -89,8 +89,8 @@ function sendEmail() {
 } 
 }
 
-
-function updateQuota() { // Обновляет значение квоты по триггеру раз в час
+// Обновляет значение квоты по триггеру раз в час
+function updateQuota() { 
   var sheet = SpreadsheetApp.openById(id).getSheetByName("Пользователи");
   var quota = MailApp.getRemainingDailyQuota();
   sheet.getRange(2, 4).setValue(quota) //Записываем остаток
